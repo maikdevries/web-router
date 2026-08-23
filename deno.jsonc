@@ -1,6 +1,6 @@
 // [SPEC] https://raw.githubusercontent.com/denoland/deno/refs/heads/main/cli/schemas/config-file.v1.json
 {
-	"name": "@maikdevries/server-router",
+	"name": "@disconnected/web-router",
 	"version": "0.5.0",
 	"exports": {
 		".": "./mod.ts",

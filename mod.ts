@@ -6,7 +6,7 @@
  *
  * @example Basic usage
  * ```ts
- * import { route, type RouteContext } from '@maikdevries/server-router';
+ * import { route, type RouteContext } from '@disconnected/web-router';
  *
  * interface Context {
  * 	'uuid': string;

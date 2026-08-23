@@ -69,7 +69,7 @@ export type RouteContext<C> = Override<C, {
  *
  * @example Basic usage
  * ```ts
- * import { route, type RouteContext } from '@maikdevries/server-router/core';
+ * import { route, type RouteContext } from '@disconnected/web-router/core';
  *
  * interface Context {
  * 	'uuid': string;
