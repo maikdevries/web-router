@@ -20,7 +20,7 @@ export type Handler<C = Empty> = (request: Request, context: C) => Response | Pr
 /**
  * An HTTP request method.
  */
-export type Method = 'CONNECT' | 'DELETE' | 'GET' | 'HEAD' | 'OPTIONS' | 'PATCH' | 'POST' | 'PUT' | 'TRACE';
+export type Method = 'CONNECT' | 'DELETE' | 'GET' | 'HEAD' | 'OPTIONS' | 'PATCH' | 'POST' | 'PUT' | 'QUERY' | 'TRACE';
 
 /**
  * A route definition that maps request properties to a request handler.
